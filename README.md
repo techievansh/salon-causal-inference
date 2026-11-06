@@ -5,6 +5,10 @@ This project applies statistical analysis and causal inference techniques to eva
 
 The project uses synthetic datasets containing approximately 300,000 operational appointment records, along with experimental and historical datasets, to demonstrate how data-driven decisions can be made.
 
+## Download Dataset
+
+[Download the complete 300,000-record synthetic dataset](data/DATASET_DOWNLOAD_LINK.md)
+
 ## Project Objectives
 - Design a statistically sound A/B testing experiment.
 - Evaluate treatment and control group balance.
