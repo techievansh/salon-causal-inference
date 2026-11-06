@@ -1,0 +1,33 @@
+
+PROJECT: Coimbatore Salon and Spa Causal Inference
+
+IMPORTANT:
+All three datasets are fully synthetic.
+No real salon customer or business records were used.
+The datasets are created for educational and methodological
+demonstration only.
+
+1. salon_appointments_synthetic_300k.csv
+   300,000 appointment-level records across 22 outlets.
+   Includes customer IDs, services, stylists, appointment
+   status, service revenue and product sales.
+   Deliberate issues: missing walk-in IDs, inconsistent
+   service names and misclassified no-shows.
+
+2. ab_experiment_synthetic.csv
+   12,000 randomized customer-level experiment records.
+   Treatment and control allocation is 50:50.
+   Includes baseline variables and 90-day retention,
+   revenue per visit and no-show outcomes.
+
+3. historical_did_synthetic.csv
+   880 outlet-week observations.
+   Includes 11 treatment and 11 control outlets,
+   20 pre-intervention and 20 post-intervention weeks.
+   Includes seasonal variation and common trends.
+
+Random seed: 42
+
+Caution:
+Results from synthetic data demonstrate analytical methods
+and do not establish real-world business effectiveness.
